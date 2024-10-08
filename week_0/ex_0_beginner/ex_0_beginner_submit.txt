@@ -1,1 +1,3 @@
-Copy and paste output of ex_0_beginner_runfile.py below:
+Copy and paste output of ex_0_beginner_runfile.py below:print("\n" + "I am Malek Guedri, a M1 CARe student and I would like to learn Python to visualize faster the invisible like gene expression")
+
+print("\n" + "The last time I was left without a computer was back in 2017 at my grandpa's house in Algeria")
