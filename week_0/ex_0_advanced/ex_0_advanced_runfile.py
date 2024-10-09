@@ -11,7 +11,7 @@ def sequence_input():
             print("There are",seq_list.count("T"), "Thymine bases")
             print("There are",seq_list.count("G"), "Guanine bases")
             print("There are",seq_list.count("C"), "Cytosine bases")
-            print("The GC content is",seq_list.count("G")/seq_list.count("C"))
+            print("The GC content is",(seq_list.count("G")+seq_list.count("C")/len(seq_list)*100))
             break
         else:
             print("As far as I know, DNA is made up of 'A','T','G', and 'C' only")

@@ -22,6 +22,9 @@ while True:
     except ValueError:
         print("Kindly enter a number only")
 
-Growth_rate = (math.log(final_count)-math.log(initial_count))/time
+if final_count>initial_count:
+    Growth_rate = (math.log(final_count)-math.log(initial_count))/time
+    print("The growth rate is ", Growth_rate, "/min")
+else:
+    print("For growth rate, final count needs to be larger than initial")
 
-print("The growth rate is ",Growth_rate,"/min")
