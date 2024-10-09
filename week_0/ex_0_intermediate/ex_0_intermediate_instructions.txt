@@ -7,3 +7,22 @@ Intermediate Homework Assignments (1.5 points):
 - Prompt the user to input the initial count, final count, and time.
 - Calculate and display the growth rate using the formula: Growth Rate = (ln(final count) - ln(initial count)) / time.
 - Ensure that the program handles invalid input gracefully.
+
+# Input from the user
+import math
+
+initial_count = int(input("Enter initial count: "))
+
+# Conditional statements
+if initial_count < 1:
+    print("invalid initial count")
+
+# Again for final count
+final_count = int(input("Enter final count: "))
+
+if initial_count<1 or final_count < initial_count:
+    print("invalid final count")
+
+else:
+    calculus=math.log(final_count) - math.log(initial_count)
+    print(f"Growth rate is: {calculus}")
