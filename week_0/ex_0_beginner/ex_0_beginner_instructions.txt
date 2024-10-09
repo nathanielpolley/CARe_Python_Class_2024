@@ -11,3 +11,32 @@ Navigating GitHub and Pycharm Interfaces and Self Introduction:
     and thermostats are embedded computers as well!
 - Commit and push changes to the branch of this working directory on your GitHub account using instructions provided
     on email
+
+C:\Users\sara\PycharmProjects\CARe_Python_Class_2024\venv\Scripts\python.exe C:\Users\sara\PycharmProjects\CARe_Python_Class_2024\week_0\ex_0_beginner\ex_0_beginner_runfile.py
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+
+I am Sara, I am a PhD student in Spain, doing a 3 month stay at CRCT. In the past I have worked with R and Linux languages. It is rewarding to be able to analyze my own data, so I would like to complete a little bit more my bioinformatic knowledge with this course
+
+Probably this summer in my little village of Spain. All I took was a book and a towel and went to the river alone, away from the houses
+
+Process finished with exit code 0
