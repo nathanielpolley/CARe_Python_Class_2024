@@ -1,5 +1,5 @@
 # Explain variables and data types
-name = "Sanzhar"  # String
+name = "Sannzhar"  # String
 age = 30  # Integer
 height = 5.8  # Float
 is_student = True  # Boolean
