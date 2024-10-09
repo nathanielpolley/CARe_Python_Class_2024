@@ -1,1 +1,7 @@
-Copy and paste output of ex_0_beginner_runfile.py below:
+C:\Users\Nayra\AppData\Local\Programs\Python\Python313\python.exe C:\Users\Nayra\PycharmProjects\CARe_Python_Class_2024\week_0\ex_0_beginner\ex_0_beginner_runfile.py
+
+This is Nadine Youssef M1 student in CARe and I would like to learn programming language to process, analyze, and visualize large biological datasets efficiently
+
+Very hard to tell!
+
+Process finished with exit code 0Copy and paste output of ex_0_beginner_runfile.py below:
