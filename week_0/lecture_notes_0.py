@@ -123,12 +123,12 @@ else:
     print("Neither or both x and y are true.")
     
 # "not" operator
-name = "Maxence"
+name = "Nadine"
 
-if not(name == "Anna"):
-    print("You are not Anna")
+if not(name == "Malek"):
+    print("You are not Malek")
 else:
-    print("You are Anna")
+    print("You are Malek")
     
 #Bitwise equivalent (NOT)
 if name != "Anna":
