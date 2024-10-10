@@ -2,7 +2,13 @@
 # Input from the user
 import math
 
-initial_count = int(input("Enter initial count: "))
+time = int(input("Enter time in hours: "))
+
+# Conditional statements
+if time < 0:
+    print("invalid time")
+else:
+    initial_count = int(input("Enter initial count: "))
 
 # Conditional statements
 if initial_count < 1:
@@ -15,5 +21,5 @@ if initial_count<1 or final_count < initial_count:
     print("invalid final count")
 
 else:
-    calculus=math.log(final_count) - math.log(initial_count)
+    calculus=(math.log(final_count) - math.log(initial_count)) / time
     print(f"Growth rate is: {calculus}")
