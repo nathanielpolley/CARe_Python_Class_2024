@@ -1,4 +1,3 @@
-Copy and paste output of ex_0_beginner_runfile.py below:
 C:\Users\Ileana\PycharmProjects\CARe_Python_Class_2024\venv\Scripts\python.exe C:\Users\Ileana\PycharmProjects\CARe_Python_Class_2024\week_0\ex_0_beginner\ex_0_beginner_runfile.py
 The Zen of Python, by Tim Peters
 
