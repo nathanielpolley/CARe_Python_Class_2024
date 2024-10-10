@@ -1,5 +1,3 @@
 import this
-
-print("\n"+"TYPE YOUR RESPONSE TO PROMPT 1 HERE")
-
-print("\n"+"TYPE YOUR RESPONSE TO PROMPT 2 HERE")
+print("\n"+"My name is Iléana, I'm 24 and love to crochet. I think learning a programming language is a great addition to your CV")
+print("\n"+"I don't remember the last place i was without a computer available")
