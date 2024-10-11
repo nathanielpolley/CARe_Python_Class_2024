@@ -24,7 +24,8 @@ print(addition, subtraction, multiplication, exponents, division, division_no_re
 name = input("Enter your name: ")
 age = int(input("Enter your age: "))
 
-# Output to the console
+# Output to the c
+# onsole
 print(f"Hello, {name}!")
 print(f"You are {age} years old.")
 
