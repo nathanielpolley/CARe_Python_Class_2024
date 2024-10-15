@@ -6,14 +6,14 @@
   AUTHOR
     JOSE EDGAR LEAL RIVERA
   DESCRIPTION
-    An AT content percentage is calculated form a DNA sequence entered by the user.
-    It excludes 'u' from the sequence and recognizes it is not DNA
+    A, T, G, C, and GC percentage content is calculated from a DNA sequence entered by the user.
+    It excludes 'non-DNA sequences' from the sequence
   CATEGORY
     Sequence Analyzer
   USAGE
     It counts A,T,G,C and GC content fromm a DNA sequence to calculate its percentage
   ARGUMENTS
-  seq, A, T, C, G, per_GC
+  seq, A, T, C, G, R, Y, per_GC, perGC2
         exclude 'no bases' of strings"""
 
 import re
