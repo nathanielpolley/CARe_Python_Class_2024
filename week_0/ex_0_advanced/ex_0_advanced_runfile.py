@@ -23,15 +23,27 @@ seq = input('Enter sequence ')
 # IgnoreCase due to FASTA format
 seq = seq.upper()
 # If there is 'u' the sequence is RNA (find a way that it only recognizes ATGCXN-)
-if re.search('[^ATCG]', seq) :
+if re.search('[^ATCGRY]', seq) :
     print('The entered sequence is not DNA ')
+
 else:
     # count characters 'A'  'T' 'G' 'C' of the string
     A = seq.count('A')
     T = seq.count('T')
     G = seq.count('G')
     C = seq.count('C')
+    R = seq.count('R')
+    Y = seq.count('Y')
     # GC percentage
-    perGC = ((G + C) / len(seq)) * 100
-    # print solicited
-    print('Your sequence has', A, 'of Adenine,', T, 'of Timine,', G, 'of Guanine,', C, 'of Citocine, and', perGC, '% of GC content')
+
+
+    perGC = ((G + C ) / len(seq)) * 100
+    if (R + Y == 0):
+     print('Your sequence has', A, 'Adenines,', T, 'Timines,', G, 'Guanines,', C, 'Citocines, and', perGC,
+           '% of GC content')
+
+    else:
+        perGC2 = ((G + C + R + Y) / len(seq)) * 100
+
+        # print solicited
+        print('Your sequence has', A, ' Adenines', T, 'Timines,', G, 'Guanines,', C, 'Citocines,', R+A+G, 'Purines', Y+T+C, 'Pyrimidines and', perGC,'% -', perGC2, '% of GC content')
