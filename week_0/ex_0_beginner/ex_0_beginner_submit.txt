@@ -1,1 +1,6 @@
 Copy and paste output of ex_0_beginner_runfile.py below:
+I am Asli Ozkul,I am doing this to level up my career
+
+When I was at the party
+
+Process finished with exit code 0
