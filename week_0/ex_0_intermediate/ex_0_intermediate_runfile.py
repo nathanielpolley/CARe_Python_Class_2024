@@ -6,4 +6,10 @@ time = float(input("Enter time elapsed: "))
 
 growth_rate = (final_count - initial_count) / time
 
-print("Growth rate:", growth_rate)
+if initial_count <= 0 or final_count <= 0 or time <= 0 :
+    print ('invalid numbers')
+else:
+    print("Growth rate:", growth_rate)
+
+
+
