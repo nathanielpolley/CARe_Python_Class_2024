@@ -1,1 +1,10 @@
 Copy and paste output of ex_0_beginner_runfile.py below:
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+
+My name is Laura, I am doing a PhD on modelising Oncolityc virus infection which requires python which is why I want to learn python
+
+I can't remember the last type i did,'t have my phone or any kind of computer
+
+Process finished with exit code 0
