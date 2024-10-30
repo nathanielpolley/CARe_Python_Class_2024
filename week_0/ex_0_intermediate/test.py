@@ -9,3 +9,6 @@ sum_result = 0
 for num in numbers:
     sum_result +=num
     print("the sum is:", sum_result)
+
+name = input("Enter your name: ")
+print(f"Hello, {name}!")
