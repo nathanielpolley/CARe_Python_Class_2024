@@ -1,5 +1,6 @@
 #YOUR CODE FOR EX_1 BEGINNER HERE
 
+
 population_counts = []
 
 for i in range(5):
@@ -19,5 +20,5 @@ print(f"Days with population count exceeding {x}:")
 for day, count in enumerate(population_counts, start=1):
     if count > x:
         print("The day corresponds to Day", day, "and the value is", count)
-else :
-    print ("No population exceeding 200")
+    else :
+        print ("No population exceeding 200")
