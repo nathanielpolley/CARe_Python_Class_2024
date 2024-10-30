@@ -1,1 +1,40 @@
-Copy and paste output of ex_1_intermediate_runfile.py below:
+Enter the total number of species in digits:3
+Enter the name of the species:cat
+Enter the number of samples sampled in numbers:21
+Enter the name of the species:rat
+Enter the number of samples sampled in numbers:12
+Enter the name of the species:dog
+Enter the number of samples sampled in numbers:31
+Type 'Enter' to continue: enter
+Enter the species name: rabbit
+Type 'Enter' to continue: enter
+Enter the species name: rat
+Type 'Enter' to continue: enter
+Enter the species name: horse
+Type 'Enter' to continue: enter
+Enter the species name: rat
+Type 'Enter' to continue: enter
+Enter the species name: rat
+Type 'Enter' to continue: enter
+Enter the species name: rat
+Type 'Enter' to continue: enter
+Enter the species name: human
+Type 'Enter' to continue: enter
+Enter the species name: dog
+Type 'Enter' to continue: enter
+Enter the species name: cat
+Type 'Enter' to continue: enter
+Enter the species name: rabbit
+Type 'Enter' to continue: enter
+Enter the species name: rat
+Type 'Enter' to continue: enter dog
+Total number of samples across all species is: 75
+
+
+Species with more than 15 samples are:  CAT,RAT,DOG
+
+
+{'CAT': 22, 'RAT': 17, 'DOG': 32, 'RABBIT': 2, 'HORSE': 1, 'HUMAN': 1}
+
+Process finished with exit code 0
+
