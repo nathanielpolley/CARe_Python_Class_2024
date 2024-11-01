@@ -18,7 +18,3 @@ def user_seq():
             print('Invalid input. Please enter a valid DNA sequence.')
 
 user_seq()
-
-
-
-
