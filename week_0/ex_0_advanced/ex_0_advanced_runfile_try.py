@@ -10,8 +10,9 @@ bases=["A", "C", "G", "T"]
 #Verification
 verification=set(uppercase_text).issubset(bases)
 
+#Conditions
 if verification is False:
-        print("not valid DNA string")
+        print("not valid DNA string, only A,C,T or G accepted")
 elif verification is True:
         # Measure string
         length = int(len(DNA))
