@@ -23,8 +23,8 @@ print(addition, subtraction, multiplication, exponents, division, division_no_re
 # Input from the user
 name = input("Enter your name: ")
 age = int(input("Enter your age: "))
-
-# Output to the console
+# Output to the c
+# onsole
 print(f"Hello, {name}!")
 print(f"You are {age} years old.")
 
@@ -37,6 +37,8 @@ last_char = text[-1]
 substring = text[7:10]
 everything_after_fourth_char = text[4::]
 every_fourth_char = text[::4]
+print("x<5")
+
 
 # Display results
 print(first_char, last_char, substring, everything_after_fourth_char, every_fourth_char)
