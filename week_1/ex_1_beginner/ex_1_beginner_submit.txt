@@ -1,1 +1,11 @@
-Copy and paste output of ex_1_beginner_runfile.py below:
+Enter the microbial population count for day 1: 100
+Enter the microbial population count for day 2: 200
+Enter the microbial population count for day 3: 150
+Enter the microbial population count for day 4: 300
+Enter the microbial population count for day 5: 50
+Average population count: 160
+Maximum population count: 300
+Minimum population count: 50
+Days when the population exceeds 200: 4
+
+Process finished with exit code 0
