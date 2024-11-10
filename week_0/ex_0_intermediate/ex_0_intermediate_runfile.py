@@ -10,8 +10,13 @@ def get_float_input(prompt):
                 return value
         except:
             print('Invalid input. Please enter a valid value.')
-initial_count = get_float_input('Enter initial count: ')
-final_count = get_float_input('Enter final count: ')
-time = get_float_input('Enter the time elapsed (in hours): ')
-growth_rate = round(math.log(final_count/initial_count)/time, 3)
-print(f'The calculated growth rate: {growth_rate}')
+while True:
+    initial_count = get_float_input('Enter initial count: ')
+    final_count = get_float_input('Enter final count: ')
+    if initial_count < final_count:
+        time = get_float_input('Enter the time elapsed (in hours): ')
+        growth_rate = round(math.log(final_count / initial_count) / time, 3)
+        print(f'The calculated growth rate: {growth_rate}')
+        break
+    else:
+        print('Final count should be higher than initial count')

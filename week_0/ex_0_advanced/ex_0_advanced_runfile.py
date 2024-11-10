@@ -3,7 +3,7 @@ def calculate_seq (seq):
     C = seq.count('C')
     T = seq.count('T')
     G = seq.count('G')
-    gc_content = round(((G + C) / len(seq)) / 100, 2)
+    gc_content = round(((G + C) / len(seq)) * 100, 2)
     print(f'Your DNA sequence has:\n {A} Adenines\n {C} Cytosines\n {G} Guanines\n {T} Thymines\n {gc_content} GC content')
 
 

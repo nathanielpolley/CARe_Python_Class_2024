@@ -1,1 +1,15 @@
-Copy and paste output of ex_1_intermediate_runfile.py below:
+Enter species name (or type "exit" to quit): E.coli
+Enter number of samples for E.coli: 12
+Enter species name (or type "exit" to quit): S.aureus
+Enter number of samples for S.aureus: 12
+Enter species name (or type "exit" to quit): B.subtilis
+Enter number of samples for B.subtilis: 18
+Enter species name (or type "exit" to quit): exit
+Number of total samples: 42
+Microbial species with sample counts greater than 15: B.subtilis
+Enter a new species name (or type "exit" to quit): Fusarium oxysporum
+Enter a new species name (or type "exit" to quit): S.aureus
+Enter a new species name (or type "exit" to quit): exit
+Updated species count: E.coli: 12, S.aureus: 13, B.subtilis: 18, Fusarium oxysporum: 1
+
+Process finished with exit code 0

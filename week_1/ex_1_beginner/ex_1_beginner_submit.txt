@@ -1,7 +1,11 @@
-/Users/ulanbatyrova/Desktop/genebank/new/.venv/bin/python /Users/ulanbatyrova/Desktop/Python course/week_1/ex_1_beginner/ex_1_beginner_runfile.py 
+Enter the microbial population count for day 1: 100
+Enter the microbial population count for day 2: 200
+Enter the microbial population count for day 3: 150
+Enter the microbial population count for day 4: 300
+Enter the microbial population count for day 5: 50
 Average population count: 160
 Maximum population count: 300
 Minimum population count: 50
-Days number when the population exceeds 200: 4
+Days when the population exceeds 200: 4
 
 Process finished with exit code 0
