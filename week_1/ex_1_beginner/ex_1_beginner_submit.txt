@@ -1,1 +1,14 @@
 Copy and paste output of ex_1_beginner_runfile.py below:
+
+Enter population count for day 1: 100
+Enter population count for day 2: 200
+Enter population count for day 3: 250
+Enter population count for day 4: 50
+Enter population count for day 5: 150
+Average Population: 150.0
+Maximum Population: 250
+Minimum Population: 50
+Days with population count exceeding 200:
+The day corresponds to Day 3 and the value is 250
+
+Process finished with exit code 0
