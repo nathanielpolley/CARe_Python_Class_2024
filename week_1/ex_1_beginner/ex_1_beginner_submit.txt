@@ -1,1 +1,15 @@
-Copy and paste output of ex_1_beginner_runfile.py below:
+Enter the microbial population count for the day:398
+Enter the microbial population count for the day:109
+Enter the microbial population count for the day:492
+Enter the microbial population count for the day:197
+Enter the microbial population count for the day:540
+
+
+The average microbial population count is 347.2
+The maximum microbial population count is 540
+The minimum microbial population count is 109
+
+
+The microbial growth count is over 200 days on day 1
+The microbial growth count is over 200 days on day 3
+The microbial growth count is over 200 days on day 5
