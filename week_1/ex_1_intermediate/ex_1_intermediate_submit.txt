@@ -1,1 +1,26 @@
 Copy and paste output of ex_1_intermediate_runfile.py below:
+Added 20 samples from Bacteria
+Added 15 samples from Archaea
+Added 10 samples from Fungi
+Total number of samples collected:45
+{'Bacteria': 20, 'Archaea': 15, 'Fungi': 10, 'Virus': 1, 'algea': 1}
+Enter a new species name(or quit to stop):protozoa
+Enter the sample count for protozoa:8
+Added protozoa with 8 samples.
+Enter a new species name(or quit to stop):quit
+Microbial species in the end
+Bacteria:20
+Archaea:15
+Fungi:10
+Virus:1
+algea:1
+protozoa:8
+
+Process finished with exit code 0
+
+
+# First I created my dictionary, afterwards I established my loop by establishing total samples 0 to sum up the microbial species.
+#Then I added new species with their count to the dictionary
+#Then I added a while loop to get user input
+#While loop asks the user for a new species name, if they enter quit then it breaks, and if the species is already present then it continues. The inner while loop ensures that the entered number is a positive integer; if it is not, it would break, and except Value error 
+would ask for a valid integer number. This 'microbial_species[new_species] = sample_count' adds the user input to the dictionary.
